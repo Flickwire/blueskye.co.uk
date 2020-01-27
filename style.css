@@ -53,6 +53,7 @@ a:hover {
 #main {
     margin: 0 5rem 0 0;
     overflow-y: auto;
+    height: 90%;
 }
 
 #stripes {
