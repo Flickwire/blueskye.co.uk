@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Poppins&display=swap');
+
+/*pallette #002C2B,#FF3D00,#FFBC11,#0A837F,#076461,#002C2B,#FF3D00,#FFBC11 */
+
+html {
+    height: 100%;
+    background-color: lightgray;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    background-color: white;
+    color: #076461;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    padding: 1.25rem;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.125rem;
+    color: #002C2B;
+    margin: 0 0 1.25rem 0;
+    line-height: 2.5rem;
+}
+
+p {
+    margin: 0 0 0.75rem 0;
+    line-height: 1.75rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    background-color: lightgray;
+    display: inline-block;
+    line-height: 1.5rem;
+    padding: 0 0.2rem;
+    margin: 0 -0.1rem;
+}
+
+a:hover {
+    position: relative;
+    top: -0.075rem;
+    left: -0.075rem;
+    box-shadow: 0.15rem 0.15rem 0 0 gray;
+}
+
+#main {
+    margin: 0 5rem 0 0;
+    overflow-y: auto;
+}
+
+#stripes {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 3.75rem;
+    margin-right: 1.25rem;
+    overflow: hidden;
+    background: linear-gradient(
+        to right,
+        #FF3D00,
+        #FF3D00 25%,
+        #FFBC11 25%,
+        #FFBC11 50%,
+        #0A837F 50%,
+        #0A837F 75%,
+        #002C2B 75%,
+        #002C2B
+    );
+}
+
