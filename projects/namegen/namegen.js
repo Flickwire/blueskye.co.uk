@@ -22,7 +22,13 @@ function generateLetter() {
 }
 
 window.onload = function() {
-    $("a").on('click',function(){
+    $("#roll").on('click',function(){
         generateLetter();
+    });
+    $("#clear").on('click',function(){
+        window.letterNo = 0;
+        window.letters = [];
+        window.jumbles = [];
+        $('#namefield').empty();
     });
 }
